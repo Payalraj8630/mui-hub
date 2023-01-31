@@ -16,7 +16,7 @@ const SidebarNav = () =>{
       <MenuItem> Line charts </MenuItem>
     </SubMenu>
     <MenuItem component={<Link to="/dashboard "/>}> Dashboard </MenuItem>
-    <MenuItem> Calendar </MenuItem>
+    <MenuItem component={<Link to="/category "/>}> Category </MenuItem>
   </Menu>
 </Sidebar>   
     </div>
